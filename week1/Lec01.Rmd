@@ -1,0 +1,229 @@
+---
+title: "Lec 01 - Welcome"
+subtitle: "<br/> COMPUTATIONAL METHODS FOR STATISTICS (DASC/MATH-5345)"
+author: "Spring 2025"
+date: "<br/> Dr. Zheng Wei"
+output:
+  xaringan::moon_reader:
+    css: ["slides.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+
+---
+exclude: true
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, # for blogdown
+  width=80
+)
+
+```
+
+---
+class: middle, center
+
+# Course Details
+
+---
+
+## Instrutor
+
+### Dr. Zheng Wei
+*  Email - zheng.wei@tamucc.edu
+
+* GitHub page - https://zweistat.github.io/
+
+---
+
+## Course materials
+
+* Canvas - canvas.tamucc.edu 
+  - HTML, or PDF of Slides in each week's learning module
+  - Readings
+  - Links to course tools
+  - Announcements
+  - Gradebook
+  - Zoom recordings available for DASC - 5345 online session
+
+---
+
+## Course Timetable
+
+* Lectures (weekly) 
+  - Tuesday, Bay Hall 207 - 11:00 am - 12:15 pm
+  - Thursday, Bay Hall 207 - 11:00 am - 12:15 pm
+
+---
+
+## Your duty
+
+- Attendance is expected
+
+- Opportunity to work on course assignments
+
+- First week topic 
+  - Basic usage of Jupyter Lab
+  - Git / GitHub configuration and usage
+
+---
+
+## Announcements
+
+Will be posted on announcement and sent via email, be sure to check both regularly.
+
+---
+
+## Grading
+
+This course is assessed 100% on your coursework (there is no final exam). We will be assessing you based on the following assignments,
+
+<br/><br/>
+
+|Assignment|Type      |Value  | n  |Assigned             |
+|:---------|:---------|:------|:---|---------------------|
+|Attendence|          |5%     |    |  Every class        |
+|Homeworks |Individual/Team|50%    | 7  |  Every other week   |
+|Midterms  |Individual|30%    | 2  |  TBA (will be announced two weeks ahead) |
+|Project   |Team      |15%    | 1  |  Week 10            | 
+
+<!-- --- -->
+
+<!-- ## Teams -->
+
+<!-- * Team assignments -->
+<!--   + Roughly biweekly assignments -->
+<!--   + Open ended -->
+<!--   + 5 - 20 hours of work -->
+<!--   + Peer evaluation after completion -->
+
+<!-- * Expectations and roles -->
+<!--     + Everyone is expected to contribute equal *effort* -->
+<!--     + Everyone is expected to understand *all* code turned in -->
+<!--     + Individual contribution evaluated by peer evaluation, commits, etc. -->
+
+---
+
+## Collaboration policy
+
+- Only work that is clearly assigned as team work should be completed collaboratively (Project). 
+
+- Individual assignments (Midterms) must be completed individually, you may not directly share or discuss answers / code with anyone other than the myself.
+
+- On Homeworks you should not directly share answers / code with other teams in this class, however you are welcome to discuss the problems in general and ask for advice.
+
+
+---
+
+## Academic integrity
+
+> - I will not lie, cheat, or steal in my academic endeavors;
+> - I will conduct myself honorably in all my endeavors; and
+> - I will act if the Standard is compromised.
+
+---
+class: center, middle
+
+# Course Tools
+
+---
+
+## Jupyter Lab
+
+.center[
+.large[Data Science Server - http://datascience.tamucc.edu]
+]
+
+- Browser based + Provides consistency in hardware and software environments
+
+- Local Python / Jupyter installations are fine but we will not guarantee support
+
+
+---
+
+## Local Python + Jupyter
+
+If working locally you should make sure that your environment meets the following requirements:
+
+* Recent Python (3.9 or newer) with working pip (or equivalent)
+
+* Recent jupyterlab (3.2 or newer)
+
+* working git installation ([jupyterlab-git](https://github.com/jupyterlab/jupyterlab-git) recoommended)
+
+* ability to create ssh keys (for GitHub authentication)
+
+* Packages updated to their latest version (assignments will include `requirements.txt` when needed)
+
+---
+
+## Username advice
+
+Some brief advice about selecting your account names (particularly for GitHub),
+
+- Incorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.
+
+- Reuse your username from other contexts, e.g., Twitter or Slack.
+
+- Pick a username you will be comfortable revealing to your future boss.
+
+- Shorter is better than longer, but be as unique as possible.
+
+- Make it timeless. Avoid highlighting your current university, employer, <br/>or place of residence.
+
+
+---
+## Git and Gitlab
+
+* make sure you can login in to the https://datascience.tamucc.edu
+
+* make sure you can login in to the https://gitlab2.tamucc.edu
+
+---
+## Git basics
+
+* git --version
+* git status
+* git init
+
+---
+## terminals
+
+* cd and cd ..
+* touch
+* mkdir
+* ls
+
+
+---
+## Config git
+
+* git config --global user.name "Zheng Wei"
+* git config --global user.email "zheng.wei@tamucc.edu"
+* git config --global --list
+
+This will help anyone looking at the changes in the repository see who has made them
+
+---
+## git commit
+
+- Main ideas
+a commit is a snapshot of the repository at a point in time
+
+steps to create a commit:
+
+* Step 1. create a new file or modify an existing one
+* Step 2. stage the file by running git add <FILE NAME>
+* Step 3. commit the file by running git commit -m "Message"
+
+---
+## git commit
+
+You change some 
+* git add
+
+
