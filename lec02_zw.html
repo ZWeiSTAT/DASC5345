@@ -54,7 +54,7 @@ class: middle, center
 
 ## Type system basics
 
-Like R, Python is a dynamically typed language but the implementation details are very different (as it makes extensive use of an object oriented class system for implementation, more on this later).
+Python is a dynamically typed language but the implementation details are very different (as it makes extensive use of an object oriented class system for implementation, more on this later).
 
 Some of the core types
 
@@ -670,7 +670,7 @@ class: middle, center
 
 ## lists
 
-Python lists are a *heterogenous*, *ordered*, *mutable* containers of objects (they behave very similarly to lists in R).
+Python lists are a *heterogenous*, *ordered*, *mutable* containers of objects.
 
 
 ```python
@@ -1064,6 +1064,24 @@ y
 ```
 ## [0, 1, 1, 0]
 ```
+
+
+```python
+id(x)
+```
+
+```
+## 4573291136
+```
+
+```python
+id(y)
+```
+
+```
+## 4573279360
+```
+
 
 .footnote[
 More on `.copy()` and `.deepcopy()` methods later on in the course.
